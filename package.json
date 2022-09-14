@@ -1,0 +1,38 @@
+{
+	"name": "eyefilling.ru",
+	"version": "1.0.2",
+	"private": "true",
+	"description": "Eye filling views",
+	"license": "ISC",
+	"author": "Davay42",
+	"scripts": {
+		"build": "vitepress build",
+		"deploy": "sh deploy.sh",
+		"dev": "vitepress dev --host",
+		"serve": "vitepress serve --port 5055"
+	},
+	"dependencies": {
+		"@vueuse/core": "9.2.0",
+		"fuse.js": "^6.6.2",
+		"ol": "^7.1.0",
+		"vitepress-pages": "^0.8.5",
+		"vue": "^3.2.39"
+	},
+	"devDependencies": {
+		"@iconify/json": "^2.1.107",
+		"@unocss/extractor-pug": "^0.45.21",
+		"postcss": "^8.4.16",
+		"postcss-nesting": "^10.1.10",
+		"pug": "3.0.2",
+		"unocss": "^0.45.21",
+		"unplugin-auto-import": "^0.11.2",
+		"unplugin-icons": "^0.14.9",
+		"unplugin-vue-components": "^0.22.7",
+		"vite": "3.1.0",
+		"vite-plugin-pages": "^0.26.0",
+		"vite-plugin-pages-sitemap": "^1.3.0",
+		"vite-plugin-windicss": "^1.8.8",
+		"vitepress": "1.0.0-alpha.14",
+		"windicss": "^3.5.6"
+	}
+}

@@ -1,0 +1,129 @@
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 2rem;
+	hyphens: auto;
+	overscroll-behavior-y: none;
+}
+
+body {
+	width: 100%;
+	min-width: 320px;
+	min-height: 100vh;
+	overflow-x: hidden;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 400;
+	color: #333;
+	background-color: #dfdfdf;
+	direction: ltr;
+	font-synthesis: none;
+	overscroll-behavior-y: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	@apply transition-colors break-words;
+}
+
+#app {
+	font-family: var(--font-family-base);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-family-heading);
+	font-size: 1.62rem;
+}
+
+a:hover {
+	@apply underline;
+}
+
+a {
+	@apply text-black dark-text-white
+}
+
+.dark body {
+	background-color: #222;
+	color: #ddd;
+}
+
+.content {
+	@apply hyphens-auto break-words p-6 md_p-8 lg_p-12 leading-relaxed max-w-3xl;
+	& * {
+		@apply max-w-full;
+	}
+	& h1, &	h2, &	h3, &	h4,	& h5,	& h6 {
+		@apply relative flex items-center;
+	}
+	& p {
+		@apply my-4;
+	}
+	& a {
+		@apply underline font-bold;
+	}
+	& em {
+		@apply not-italic text-dark-100/60 dark-text-light-100/60;
+	}
+	& .header-anchor {
+		@apply text-lg absolute -left-3 opacity-10  transition duration-200ms ease;
+	}
+	& h1:hover .header-anchor,
+	& h2:hover .header-anchor,
+	& h3:hover .header-anchor,
+	& h4:hover .header-anchor {
+		@apply opacity-100;
+	}
+	& h1 {
+		@apply font-bold text-4xl my-8 p-1;
+	}
+	& h2 {
+		@apply font-bold text-3xl p-1 my-8;
+	}
+	& h3 {
+		@apply font-bold text-2xl p-1 my-6;
+	}
+	& h4 {
+		@apply font-bold text-xl mt-4;
+	}
+	& ul,	& ol {
+		@apply pl-4;
+	}
+	& li {
+		@apply leading-relaxed;
+	}
+	& hr {
+		@apply my-16 bg-dark-100/50 h-1px dark-bg-light-100/50 max-w-xl;
+	}
+	& img {
+		@apply max-w-full my-16 z-40 mx-auto;
+	}
+	& img[alt="no-shadow"] {
+		@apply shadow-none;
+	}
+	& table {
+		@apply border-collapse;
+		& td {
+			@apply p-1;
+		}
+		& tr:nth-child(2n) {
+			@apply bg-dark-100/10 dark-bg-light-100/10;
+		}
+	}
+	& pre,	& code {
+		@apply overflow-x-scroll max-w-full;
+	}
+	& blockquote {
+		@apply bg-light-600 p-4 m-2 rounded-lg dark-bg-dark-600;
+	}
+	& .button {
+		@apply py-2 px-4 bg-orange-300 shadow-md hover_shadow-lg rounded-lg inline-block dark-bg-orange-800 filter contrast-80 hover_contrast-100 transition active_contrast-120 active_shadow-sm;
+	}
+}
+
+.slides p {
+	/* scroll-snap-type: x mandatory;   */
+	-webkit-overflow-scrolling: touch;
+	@apply flex  overflow-x-scroll;
+	& > img {
+		/* scroll-snap-align: middle; */
+	}
+}
