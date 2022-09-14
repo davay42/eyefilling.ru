@@ -31,11 +31,11 @@ svg.defs(style="height:0")
 
 <style scoped>
 .author-card {
-  @apply flex flex-col shadow-lg p-8 my-16 bg-gray-50 dark-bg-gray-700;
+  --at-apply: flex flex-col shadow-lg p-8 my-16 bg-gray-50 dark-bg-gray-700;
 }
 
 .avatar {
-  @apply h-12em self-start;
+  --at-apply: h-12em self-start;
   flex: 0 1 120px;
   clip-path: url(#squircle);
 }

@@ -43,7 +43,7 @@ function getImage(page) {
 
 <style lang="postcss" scoped>
 .link .panel {
-  @apply z-10 p-4 m-2 shadow-md bg-light-200 bg-opacity-90 dark-bg-dark-200 dark-bg-opacity-90 rounded flex items-center;
+  --at-apply: z-10 p-4 m-2 shadow-md bg-light-200 bg-opacity-90 dark-bg-dark-200 dark-bg-opacity-90 rounded flex items-center;
 }
 
 .link::before {

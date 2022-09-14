@@ -27,10 +27,10 @@ const langNames = {
 
 <style scoped>
 button {
-  @apply outline-none opacity-50 text-sm m-1 py-1 px-2 shadow bg-light-900 rounded-xl dark-bg-dark-800;
+  --at-apply: outline-none opacity-50 text-sm m-1 py-1 px-2 shadow bg-light-900 rounded-xl dark-bg-dark-800;
 
   &.active {
-    @apply opacity-100 bg-light-500 dark-bg-dark-900;
+    --at-apply: opacity-100 bg-light-500 dark-bg-dark-900;
   }
 }
 </style>

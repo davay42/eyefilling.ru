@@ -21,24 +21,29 @@ body {
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	@apply transition-colors break-words;
+	--at-apply: transition-colors break-words;
 }
 
 #app {
 	font-family: var(--font-family-base);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: var(--font-family-heading);
 	font-size: 1.62rem;
 }
 
 a:hover {
-	@apply underline;
+	--at-apply: underline;
 }
 
 a {
-	@apply text-black dark-text-white
+	--at-apply: text-black dark-text-white;
 }
 
 .dark body {
@@ -47,82 +52,92 @@ a {
 }
 
 .content {
-	@apply hyphens-auto break-words p-6 md_p-8 lg_p-12 leading-relaxed max-w-3xl;
+	--at-apply: hyphens-auto break-words p-6 md_p-8 lg_p-12 leading-relaxed
+		max-w-3xl;
 	& * {
-		@apply max-w-full;
+		--at-apply: max-w-full;
 	}
-	& h1, &	h2, &	h3, &	h4,	& h5,	& h6 {
-		@apply relative flex items-center;
+	& h1,
+	& h2,
+	& h3,
+	& h4,
+	& h5,
+	& h6 {
+		--at-apply: relative flex items-center;
 	}
 	& p {
-		@apply my-4;
+		--at-apply: my-4;
 	}
 	& a {
-		@apply underline font-bold;
+		--at-apply: underline font-bold;
 	}
 	& em {
-		@apply not-italic text-dark-100/60 dark-text-light-100/60;
+		--at-apply: not-italic text-dark-100/60 dark-text-light-100/60;
 	}
 	& .header-anchor {
-		@apply text-lg absolute -left-3 opacity-10  transition duration-200ms ease;
+		--at-apply: text-lg absolute -left-3 opacity-10 transition duration-200ms ease;
 	}
 	& h1:hover .header-anchor,
 	& h2:hover .header-anchor,
 	& h3:hover .header-anchor,
 	& h4:hover .header-anchor {
-		@apply opacity-100;
+		--at-apply: opacity-100;
 	}
 	& h1 {
-		@apply font-bold text-4xl my-8 p-1;
+		--at-apply: font-bold text-4xl my-8 p-1;
 	}
 	& h2 {
-		@apply font-bold text-3xl p-1 my-8;
+		--at-apply: font-bold text-3xl p-1 my-8;
 	}
 	& h3 {
-		@apply font-bold text-2xl p-1 my-6;
+		--at-apply: font-bold text-2xl p-1 my-6;
 	}
 	& h4 {
-		@apply font-bold text-xl mt-4;
+		--at-apply: font-bold text-xl mt-4;
 	}
-	& ul,	& ol {
-		@apply pl-4;
+	& ul,
+	& ol {
+		--at-apply: pl-4;
 	}
 	& li {
-		@apply leading-relaxed;
+		--at-apply: leading-relaxed;
 	}
 	& hr {
-		@apply my-16 bg-dark-100/50 h-1px dark-bg-light-100/50 max-w-xl;
+		--at-apply: my-16 bg-dark-100/50 h-1px dark-bg-light-100/50 max-w-xl;
 	}
 	& img {
-		@apply max-w-full my-16 z-40 mx-auto;
+		--at-apply: max-w-full my-16 z-40 mx-auto;
 	}
 	& img[alt="no-shadow"] {
-		@apply shadow-none;
+		--at-apply: shadow-none;
 	}
 	& table {
-		@apply border-collapse;
+		--at-apply: border-collapse;
 		& td {
-			@apply p-1;
+			--at-apply: p-1;
 		}
 		& tr:nth-child(2n) {
-			@apply bg-dark-100/10 dark-bg-light-100/10;
+			--at-apply: bg-dark-100/10 dark-bg-light-100/10;
 		}
 	}
-	& pre,	& code {
-		@apply overflow-x-scroll max-w-full;
+	& pre,
+	& code {
+		--at-apply: overflow-x-scroll max-w-full;
 	}
 	& blockquote {
-		@apply bg-light-600 p-4 m-2 rounded-lg dark-bg-dark-600;
+		--at-apply: bg-light-600 p-4 m-2 rounded-lg dark-bg-dark-600;
 	}
 	& .button {
-		@apply py-2 px-4 bg-orange-300 shadow-md hover_shadow-lg rounded-lg inline-block dark-bg-orange-800 filter contrast-80 hover_contrast-100 transition active_contrast-120 active_shadow-sm;
+		--at-apply: py-2 px-4 bg-orange-300 shadow-md hover_shadow-lg rounded-lg
+			inline-block dark-bg-orange-800 filter contrast-80 hover_contrast-100
+			transition active_contrast-120 active_shadow-sm;
 	}
 }
 
 .slides p {
 	/* scroll-snap-type: x mandatory;   */
 	-webkit-overflow-scrolling: touch;
-	@apply flex  overflow-x-scroll;
+	--at-apply: flex overflow-x-scroll;
 	& > img {
 		/* scroll-snap-align: middle; */
 	}

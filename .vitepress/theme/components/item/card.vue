@@ -61,16 +61,16 @@ a.card.flex.flex-col.justify-between.items-center.bg-cover.bg-center.relative(
 
 <style lang="postcss" scoped>
 .card {
-  @apply overflow-hidden rounded-md shadow-md overflow-hidden bg-light-700 dark-bg-dark-100 transition-all duration-200 no-underline hover-bg-light-900 hover-shadow-lg hover-dark-bg-dark-400);
+  --at-apply: overflow-hidden rounded-md shadow-md overflow-hidden bg-light-700 dark-bg-dark-100 transition-all duration-200 no-underline hover-bg-light-900 hover-shadow-lg hover-dark-bg-dark-400);
 
 }
 
 .card:hover .info {
-  @apply bg-light-100 dark-bg-dark-100;
+  --at-apply: bg-light-100 dark-bg-dark-100;
 }
 
 .card:hover .play {
-  @apply opacity-90 z-30;
+  --at-apply: opacity-90 z-30;
 }
 
 .card::before {
@@ -97,6 +97,6 @@ a.card.flex.flex-col.justify-between.items-center.bg-cover.bg-center.relative(
 
 .card:hover .date,
 .card:hover .status {
-  @apply opacity-80;
+  --at-apply: opacity-80;
 }
 </style>

@@ -23,12 +23,12 @@ const pages = getPages(routes)
 
 <style lang="postcss" scoped>
 .link {
-  @apply p-4 bg-light-400 bg-opacity-10 dark-bg-dark-700 dark-bg-opacity-10;
+  --at-apply: p-4 bg-light-400 bg-opacity-10 dark-bg-dark-700 dark-bg-opacity-10;
 
 
 }
 
 .link.active {
-  @apply bg-light-100 bg-opacity-70 z-2 dark-bg-dark-200 dark-bg-opacity-70;
+  --at-apply: bg-light-100 bg-opacity-70 z-2 dark-bg-dark-200 dark-bg-opacity-70;
 }
 </style>

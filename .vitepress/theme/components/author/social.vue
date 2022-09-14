@@ -23,18 +23,18 @@ const props = defineProps({
 
 <style scoped>
 .social {
-  @apply flex flex-wrap px-2;
+  --at-apply: flex flex-wrap px-2;
 }
 
 .social a {
-  @apply flex items-center py-1 px-2 border m-1 rounded-xl shadow-md;
+  --at-apply: flex items-center py-1 px-2 border m-1 rounded-xl shadow-md;
 }
 
 .social .icon {
-  @apply text-3xl pr-2 py-1;
+  --at-apply: text-3xl pr-2 py-1;
 }
 
 .social .name {
-  @apply text-1rem;
+  --at-apply: text-1rem;
 }
 </style>

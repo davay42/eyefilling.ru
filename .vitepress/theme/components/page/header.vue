@@ -18,10 +18,10 @@ header#start
 <style lang="postcss" scoped>
 header {
   flex: 1 1 100%;
-  @apply flex flex-col z-2 shadow-lg;
+  --at-apply: flex flex-col z-2 shadow-lg;
 }
 
 .info {
-  @apply flex flex-col items-center gap-2 w-full p-4 bg-light-600 dark-bg-dark-500;
+  --at-apply: flex flex-col items-center gap-2 w-full p-4 bg-light-600 dark-bg-dark-500;
 }
 </style>

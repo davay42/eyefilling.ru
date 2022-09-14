@@ -62,32 +62,32 @@ const backgroundImage = computed(() => {
 
 <style lang="postcss">
 .cover {
-  @apply flex-auto w-full -z-30 flex flex-col items-center bg-center bg-cover bg-fixed bg-no-repeat;
+  --at-apply: flex-auto w-full -z-30 flex flex-col items-center bg-center bg-cover bg-fixed bg-no-repeat;
 }
 
 @supports (-webkit-touch-callout: none) {
   .cover {
-    @apply bg-scroll;
+    --at-apply: bg-scroll;
   }
 }
 
 .screen-button {
-  @apply p-4 rounded-full transition ease-in-out cursor-pointer;
+  --at-apply: p-4 rounded-full transition ease-in-out cursor-pointer;
 }
 
 .screen-button:hover {
-  @apply bg-light-100 shadow-lg dark-bg-dark-800;
+  --at-apply: bg-light-100 shadow-lg dark-bg-dark-800;
 }
 
 a.link {
-  @apply bg-cover bg-center flex-auto relative flex items-center text-sm text-center transition-all duration-500 no-underline bg-light-500/60 dark-(bg-dark-100/10) hover_(bg-light-100 dark-bg-dark-100);
+  --at-apply: bg-cover bg-center flex-auto relative flex items-center text-sm text-center transition-all duration-500 no-underline bg-light-500/60 dark-(bg-dark-100/10) hover_(bg-light-100 dark-bg-dark-100);
 }
 
 a.link.active {
-  @apply bg-light-100 bg-opacity-70 z-2 dark-bg-dark-200 dark-bg-opacity-70;
+  --at-apply: bg-light-100 bg-opacity-70 z-2 dark-bg-dark-200 dark-bg-opacity-70;
 }
 
 a.link.active:hover {
-  @apply bg-opacity-100 dark-bg-opacity-100;
+  --at-apply: bg-opacity-100 dark-bg-opacity-100;
 }
 </style>
