@@ -1,7 +1,7 @@
 ---
 home: true
 title: Eyefilling
-subtitle: Глазам на радость
+subtitle: То, что радует глаз
 date: 2022-09-14
 cover: cover.jpg
 essay: true
