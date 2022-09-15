@@ -16,10 +16,9 @@ export default defineConfig({
     color: '#f9a02c',
     social: {
       tel: '+7 (963) 979-02-04',
-      email: 'davay@ooley.ru',
-      vk: 'ooley42',
-      instagram: 'ooley42',
-      github: 'ooley42'
+      email: 'me@starovdenis.com',
+      instagram: 'starov',
+      github: 'davay42'
     }
   },
   vite: {

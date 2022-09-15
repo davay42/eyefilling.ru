@@ -126,7 +126,7 @@ a {
 		--at-apply: overflow-x-scroll max-w-full;
 	}
 	& blockquote {
-		--at-apply: bg-light-600 p-4 m-2 rounded-lg dark-bg-dark-600;
+		--at-apply: bg-light-600 p-4 m-2 rounded-lg dark-bg-dark-600 max-w-3xl mx-auto;
 	}
 	& .button {
 		--at-apply: py-2 px-4 bg-orange-300 shadow-md hover_shadow-lg rounded-lg

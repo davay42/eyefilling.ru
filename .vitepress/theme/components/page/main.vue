@@ -27,10 +27,10 @@ const backgroundImage = computed(() => {
   nav-toc(v-if="page?.toc")
   nav-dark.screen-button.fixed.bottom-4.left-4.z-90
   nav-scroll.screen-button.fixed.bottom-4.right-4.z-90
-  page-header.w-full
+  page-header.w-full.backdrop-filter.backdrop-blur-xl.absolute.top-0.bg-light-100.bg-opacity-20.dark-bg-dark-100.dark-bg-opacity-20
   transition(name="fade" mode="out-in")
     main.flex.flex-col.items-center.flex-1.w-full(:key="route.path")
-      .cover(
+      .cover.pt-90(
         :style="{ backgroundImage, backgroundColor: page?.color ? page.color : 'transparent' }"
         )
         //- img.w-full.fixed.top-0(:src="page?.cover" v-if="page?.cover" alt="Page cover")

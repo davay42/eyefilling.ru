@@ -33,7 +33,7 @@ function getImage(page) {
     v-for="(page, p) in parents" 
     :key="page.title" 
     :href="page.path"
-    :style="{ backgroundImage: getImage(page) }"
+    :style="{ backgroundImage: getImage(page), backgroundOpacity: 0.2 }"
     ) 
     .panel.flex
       h4.text-lg.w-full.-mt-1 {{ page.title }}

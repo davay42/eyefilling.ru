@@ -4,7 +4,7 @@ export const metaData = {
   site: "https://davay42.github.com/eyefilling.ru",
   locale: "ru",
   icon: "/logo.png",
-  logo: "/logo.png",
+  logo: "/logo-c.png",
   author: "Davay",
   tags: "фотография, альбомы, пейзажи, галерея, картинки, фото, аэрофото",
 };
