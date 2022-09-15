@@ -19,7 +19,7 @@ const id = computed(() => {
 </script>
   
 <template lang="pug">
-.iframe-container
+.iframe-container.min-h-100
   iframe.overflow-hidden.mx-auto(
     loading="lazy"
     :src="`https://www.youtube-nocookie.com/embed/${id}`", 
