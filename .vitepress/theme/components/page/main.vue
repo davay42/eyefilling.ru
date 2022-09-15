@@ -39,13 +39,13 @@ const backgroundImage = computed(() => {
       .shadow-xl.relative.flex.flex-col.gap-6.w-full.backdrop-filter.backdrop-blur-lg.items-center.bg-light-500.bg-opacity-99.z-2.dark-bg-dark-500.dark-bg-opacity-99(style="flex: 1000 1 420px")
         map-ol.w-full(v-if="page?.map" :routes="routes" :route="page.map" :key="route.path")
 
-        .flex.flex-col.items-stretch.max-w-3xl.w-full.shadow-lg
+        .flex.flex-col.items-stretch.w-full.shadow-lg(:class="{essay:$frontmatter.essay}")
           page-info
           //- map-ol.w-full(v-if="page?.coord" :showCenter="true" :page="page" :center="page?.coord" :route="route.path" :key="route.path")
           youtube-embed(v-if="page?.youtube" :link="page?.youtube")
           vimeo-embed(v-if="page?.vimeo" :link="page.vimeo")
 
-          content.content.bg-light-200.dark-bg-dark-300(v-if="!page?.empty")
+          content.content.bg-light-200.dark-bg-dark-300.mx-auto( v-if="!page?.empty")
         .flex.flex-wrap.gap-8.my-10.w-full.max-w-3xl(style="flex: 1 1 100%" v-if="pages[route.path] && Object.keys(pages[route.path]).length > 0")
           item-card(
             v-for="page in pages[route.path]"
@@ -61,6 +61,14 @@ const backgroundImage = computed(() => {
 </template>
 
 <style >
+.essay {
+  --at-apply: max-w-3xl;
+
+  & p {
+    --at-apply: mx-4;
+  }
+}
+
 .cover {
   --at-apply: flex-auto w-full -z-30 flex flex-col items-center bg-center bg-cover bg-fixed bg-no-repeat;
 }

@@ -50,7 +50,7 @@ a.card.flex.flex-col.justify-between.items-center.bg-cover.bg-center.relative(
     .flex.items-center.p-4
       .flex.flex-col
         item-type(:type="page.data?.type")
-        h3.text-2xl.font-bold.md_text-2xl {{ page.title }} 
+        h3.text-2xl.font-bold.md-text-2xl {{ page.title }} 
       .flex-1
       .ml-2.text-md.dark-bg-light-300.dark-bg-opacity-10.bg-dark-50.bg-opacity-10.rounded-md.px-6px(v-if="children > 0") {{ children }}
     .text-md.mt-1.line-clamp-4(v-if="page?.subtitle") {{ page.subtitle }}

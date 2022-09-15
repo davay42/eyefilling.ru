@@ -12,6 +12,7 @@
 		"serve": "vitepress serve --port 5055"
 	},
 	"dependencies": {
+		"@unocss/reset": "^0.45.21",
 		"@vueuse/core": "9.2.0",
 		"fuse.js": "^6.6.2",
 		"ol": "^7.1.0",

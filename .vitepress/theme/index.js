@@ -3,6 +3,7 @@
 import "./styles/index.css";
 import "./styles/main.css";
 import "./styles/transitions.css";
+import '@unocss/reset/tailwind.css'
 
 import 'uno.css'
 

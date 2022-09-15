@@ -3,7 +3,7 @@
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
     'Helvetica Neue', sans-serif;
 
-  --font-family-heading: 'Lineatura', source-code-pro, Menlo, Monaco, Consolas,
+  --font-family-heading: 'Commissioner', source-code-pro, Menlo, Monaco, Consolas,
     'Courier New', monospace;
 
   --font-family-mono: 'Fira Code', source-code-pro, Menlo, Monaco, Consolas,
@@ -30,7 +30,7 @@
 @font-face {
   font-display: swap;
   font-family: 'Commissioner';
-  font-style: normal;
+  font-style: bold;
   font-weight: 700;
   src: local(''),
     url('/fonts/commissioner-v3-latin_cyrillic-ext_cyrillic-700.woff2')
@@ -40,22 +40,6 @@
       format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-
-/* commissioner-regular - latin_cyrillic-ext_cyrillic */
-@font-face {
-  font-display: swap;
-  font-family: 'Lineatura';
-  font-style: normal;
-  font-weight: 400;
-  src: local(''),
-    url('/fonts/Lineatura.woff2')
-      format('woff2'),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url('/fonts/Lineatura.woff')
-      format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    url('/fonts/Lineatura.ttf')
-      format('ttf'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
 
 
 

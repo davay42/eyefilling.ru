@@ -8,8 +8,8 @@ const { theme } = useData()
 <template lang='pug'>
 header#start
   .flex.flex-col.items-center
-    a.no-underline.p-4.flex-auto.flex.items-center.justify-center(href="/" title="Go home")
-      img.w-14rem(:src="theme.logo" alt="Eyefilling logo")
+    a.no-underline.flex-auto.flex.items-center.justify-center(href="/" title="Go home")
+      img.h-42(:src="theme.logo" alt="Eyefilling logo")
     .flex.flex-col.w-full.justify-center.max-w-3xl
 
       nav-bar
