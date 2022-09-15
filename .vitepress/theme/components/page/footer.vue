@@ -11,7 +11,7 @@ footer.shadow-xl.pt-8.w-full.flex.flex-col.justify-center.transition-all.duratio
   social-icons.text-2xl.mt-6.mb-6(:links="theme.social")
 </template>
 
-<style lang="postcss" scoped>
+<style  scoped>
 /* footer {
   background-color: #f9a02c55;
 } */

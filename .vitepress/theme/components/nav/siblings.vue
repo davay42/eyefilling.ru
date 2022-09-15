@@ -40,7 +40,7 @@ function getImage(side) {
       .i-octicon-chevron-right.ml-2.text-xl
 </template>
 
-<style lang="postcss" scoped>
+<style  scoped>
 .panel {
   --at-apply: z-10 p-4 m-2 shadow-md bg-light-200 bg-opacity-90 dark-bg-dark-200 dark-bg-opacity-90 rounded flex items-center flex-wrap;
 }

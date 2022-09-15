@@ -59,10 +59,9 @@ a.card.flex.flex-col.justify-between.items-center.bg-cover.bg-center.relative(
 </template>
 
 
-<style lang="postcss" scoped>
+<style  scoped>
 .card {
-  --at-apply: overflow-hidden rounded-md shadow-md overflow-hidden bg-light-700 dark-bg-dark-100 transition-all duration-200 no-underline hover-bg-light-900 hover-shadow-lg hover-dark-bg-dark-400);
-
+  --at-apply: overflow-hidden rounded-md shadow-md overflow-hidden bg-light-700 dark-bg-dark-100 transition-all duration-200 no-underline hover-bg-light-900 hover-shadow-lg hover-dark-bg-dark-400;
 }
 
 .card:hover .info {

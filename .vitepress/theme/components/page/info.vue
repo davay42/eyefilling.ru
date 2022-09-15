@@ -26,6 +26,6 @@ const page = computed(() => getPage(route.path, routes))
 
       
 </template>
-<style lang="postcss" scoped>
+<style  scoped>
 
 </style>

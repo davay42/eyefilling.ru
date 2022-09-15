@@ -11,13 +11,14 @@ const { frontmatter } = useData();
   .text-xl(v-if="frontmatter.subtitle") {{ frontmatter.subtitle }}
        
 </template>
-<style lang="postcss" scoped>
+<style  scoped>
 .info {
   flex: 1 1 100%;
   --at-apply: shadow-2xl flex p-8 md_p-16 flex-col gap-2 z-2 items-center text-center rounded-t-sm backdrop-filter backdrop-blur-md bg-light-200 bg-opacity-90 dark-bg-dark-200 dark-bg-opacity-90;
+}
 
-  & .link {
-    --at-apply: p-4;
-  }
+
+.info .link {
+  --at-apply: p-4;
 }
 </style>

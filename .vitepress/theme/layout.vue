@@ -8,5 +8,6 @@ transition(name="fade" mode="out-in")
   page-main
 </template>
 
-<style lang="postcss" scoped>
+<style  scoped>
+
 </style>

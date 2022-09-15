@@ -60,7 +60,7 @@ const backgroundImage = computed(() => {
     
 </template>
 
-<style lang="postcss">
+<style >
 .cover {
   --at-apply: flex-auto w-full -z-30 flex flex-col items-center bg-center bg-cover bg-fixed bg-no-repeat;
 }

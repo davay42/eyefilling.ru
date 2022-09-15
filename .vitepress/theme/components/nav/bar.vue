@@ -21,7 +21,7 @@ const pages = getPages(routes)
       h4.text-lg {{ page.title }} 
 </template>
 
-<style lang="postcss" scoped>
+<style  scoped>
 .link {
   --at-apply: p-4 bg-light-400 bg-opacity-10 dark-bg-dark-700 dark-bg-opacity-10;
 

@@ -1,5 +1,7 @@
 <script setup>
+import { useData } from 'vitepress'
 
+const { theme } = useData()
 
 </script>
 
@@ -7,7 +9,7 @@
 header#start
   .flex.flex-col.items-center
     a.no-underline.p-4.flex-auto.flex.items-center.justify-center(href="/" title="Go home")
-      img.w-14rem(:src="'img'" alt="Eyefilling logo")
+      img.w-14rem(:src="theme.logo" alt="Eyefilling logo")
     .flex.flex-col.w-full.justify-center.max-w-3xl
 
       nav-bar
@@ -15,7 +17,7 @@ header#start
       
       
 </template>
-<style lang="postcss" scoped>
+<style scoped>
 header {
   flex: 1 1 100%;
   --at-apply: flex flex-col z-2 shadow-lg;
