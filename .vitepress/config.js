@@ -13,7 +13,7 @@ export default defineConfig({
   themeConfig: {
     repo: "",
     logo: metaData.logo,
-    color: '#f9a02c',
+    color: '#99eeff',
     social: {
       tel: '+7 (963) 979-02-04',
       email: 'me@starovdenis.com',
