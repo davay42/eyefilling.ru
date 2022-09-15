@@ -1,12 +1,12 @@
 ---
 title: "Золотой день в карьере"
 date: "2020-11-24"
-categories: 
-  - "polety"
-coverImage: "screenshot-2020-11-24-at-13.16.34-1.png"
+cover: "cover.png"
 ---
 
-https://www.youtube.com/watch?v=Vwt57rGZUWg
+
+
+<youtube-embed class="my-24" link="https://www.youtube.com/watch?v=Vwt57rGZUWg" />
 
 Золотой день осени в октябре 2020. Полеты над Дзержинским карьером как способ понаблюдать за утихающей природой под необычным углом. Можно представить, как, видя подобные картины внизу, перелетные птицы собираются в свой долгий путь на юг.
 

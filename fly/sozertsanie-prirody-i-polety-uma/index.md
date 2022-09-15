@@ -1,9 +1,9 @@
 ---
 title: "Созерцание природы и полеты ума"
 date: "2020-02-08"
-categories: 
-  - "polety"
-coverImage: "screenshot-2020-10-12-at-16.52.33-copy.jpg"
+cover: cover.jpg
 ---
 
-https://youtu.be/QkTw8GLfCP8
+
+
+<youtube-embed class="my-24" link="https://youtu.be/QkTw8GLfCP8" />

@@ -1,9 +1,8 @@
 ---
 title: "Каменистый берег Комарово"
 date: "2021-07-31"
-categories: 
-  - "polety"
-coverImage: "dji_0886-scaled.jpg"
+cover:  cover.jpg
 ---
 
-https://www.youtube.com/watch?v=jOqLB8uCL5E
+
+<youtube-embed class="my-24" link="https://www.youtube.com/watch?v=jOqLB8uCL5E" />
