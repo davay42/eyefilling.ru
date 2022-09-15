@@ -9,7 +9,7 @@
 		"build": "vitepress build",
 		"deploy": "sh deploy.sh",
 		"dev": "vitepress dev --host",
-		"serve": "vitepress serve --port 5055"
+		"serve": "vitepress serve --port 5500"
 	},
 	"dependencies": {
 		"@unocss/reset": "^0.45.21",
