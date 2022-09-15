@@ -1,3 +1,4 @@
 node_modules
 _dist
 .DS_Store
+public/media_files

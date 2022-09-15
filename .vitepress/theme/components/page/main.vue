@@ -32,10 +32,11 @@ const backgroundImage = computed(() => {
     main.flex.flex-col.items-center.flex-1.w-full(:key="route.path")
       .cover(
         :style="{ backgroundImage, backgroundColor: page?.color ? page.color : 'transparent' }"
-      )
+        )
         //- img.w-full.fixed.top-0(:src="page?.cover" v-if="page?.cover" alt="Page cover")
         img.min-w-50.max-w-62.rounded-lg.absolute.mt-12(v-if="page?.icon" :src="page.icon" alt="Page icon")
         page-heading.max-w-3xl.w-full.shadow-lg(:style="{ marginTop: page?.cover || frontmatter.home || page?.icon ? '40vh' : '0' }")
+
       .shadow-xl.relative.flex.flex-col.gap-6.w-full.backdrop-filter.backdrop-blur-lg.items-center.bg-light-500.bg-opacity-99.z-2.dark-bg-dark-500.dark-bg-opacity-99(style="flex: 1000 1 420px")
         map-ol.w-full(v-if="page?.map" :routes="routes" :route="page.map" :key="route.path")
 
@@ -45,7 +46,7 @@ const backgroundImage = computed(() => {
           youtube-embed(v-if="page?.youtube" :link="page?.youtube")
           vimeo-embed(v-if="page?.vimeo" :link="page.vimeo")
 
-          content.content.bg-light-200.dark-bg-dark-300.mx-auto( v-if="!page?.empty")
+          content.content.bg-light-200.dark-bg-dark-300.mx-auto.min-w-full( v-if="!page?.empty")
         .flex.flex-wrap.gap-8.my-10.w-full.max-w-3xl(style="flex: 1 1 100%" v-if="pages[route.path] && Object.keys(pages[route.path]).length > 0")
           item-card(
             v-for="page in pages[route.path]"
