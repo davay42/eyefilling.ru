@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.1019bf5f.js";const m=JSON.parse('{"title":"Альбомы","description":"","frontmatter":{"title":"Альбомы","date":"2022-10-31","cover":"cover.jpg"},"headers":[],"relativePath":"albums/index.md"}'),r={name:"albums/index.md"};function o(n,s,c,d,i,p){return a(),t("div")}const l=e(r,[["render",o]]);export{m as __pageData,l as default};
