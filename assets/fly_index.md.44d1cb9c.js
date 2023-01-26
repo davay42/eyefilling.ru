@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.1019bf5f.js";const f=JSON.parse('{"title":"Полеты","description":"","frontmatter":{"title":"Полеты","date":"2021-04-04T00:00:00.000Z","cover":"cover.jpg"},"headers":[],"relativePath":"fly/index.md"}'),r={name:"fly/index.md"};function o(n,c,s,d,i,p){return a(),t("div")}const l=e(r,[["render",o]]);export{f as __pageData,l as default};
