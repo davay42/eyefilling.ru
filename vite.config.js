@@ -9,7 +9,8 @@ import Unocss from 'unocss/vite'
 import { presetUno, presetIcons, transformerDirectives, extractorSplit } from "unocss";
 import extractorPug from '@unocss/extractor-pug'
 
-
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 export default defineConfig({
   server: {
@@ -30,7 +31,9 @@ export default defineConfig({
       ],
       exclude: ['**/node_modules/**/*.*', '**/!(index).md'],
       extensions: ['md'],
-      ...extendRoutes(),
+      ...extendRoutes({
+        root: path.dirname(fileURLToPath(import.meta.url)),
+      }),
       onRoutesGenerated: routes => (generateSitemap({ routes, hostname: 'https://eyefilling.ru/' })),
     }),
     Components({
