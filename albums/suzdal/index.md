@@ -1,6 +1,6 @@
 ---
 title: Суздаль в сентябре
-subtitle: Город монастырей
+description: Город монастырей
 date: 2022-09-04
 cover: images/DJI_0161.jpg
 ---

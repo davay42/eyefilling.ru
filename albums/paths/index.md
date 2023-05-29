@@ -1,6 +1,6 @@
 ---
 title: Пути
-subtitle: Наблюдения весны
+description: Наблюдения весны
 date: 2020-05-20
 cover: images/IMG_2580.jpg
 ---

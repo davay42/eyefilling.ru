@@ -1,7 +1,7 @@
 export const metaData = {
   title: "Eyefilling",
-  description: "Глазам приятно",
-  site: "https://davay42.github.com/eyefilling.ru",
+  description: "Глазу приятно",
+  site: "https://eyefilling.ru",
   locale: "ru",
   icon: "/logo.png",
   logo: "/logo-c.png",

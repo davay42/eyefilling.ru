@@ -1,6 +1,6 @@
 ---
 title: Уборка урожая
-subtitle: По пути из Тарусы
+description: По пути из Тарусы
 date: 2022-08-12
 cover: images/DJI_0118.jpg
 ---

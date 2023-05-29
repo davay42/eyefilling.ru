@@ -1,6 +1,6 @@
 ---
 title: Таруса
-subtitle: Городок вольной мысли
+description: Городок вольной мысли
 date: 2022-08-12
 cover: images/DJI_0087.jpg
 ---
