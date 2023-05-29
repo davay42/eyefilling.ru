@@ -4,3 +4,4 @@ _dist
 public/media_files
 public/sitemap.xml
 .vitepress/cache
+.vitepress/.temp
