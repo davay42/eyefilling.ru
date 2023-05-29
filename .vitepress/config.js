@@ -15,7 +15,6 @@ export default defineConfig({
     logo: metaData.logo,
     color: '#99eeff',
     social: {
-      tel: '+7 (963) 979-02-04',
       email: 'me@starovdenis.com',
       instagram: 'starov',
       github: 'davay42'
