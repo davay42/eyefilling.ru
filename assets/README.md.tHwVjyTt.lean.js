@@ -1,0 +1,1 @@
+import{_ as e,a,o,L as t}from"./chunks/framework.CIxGbb8q.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),r={name:"README.md"},l=t("",3),n=[l];function c(i,s,_,d,h,p){return o(),a("div",null,n)}const u=e(r,[["render",c]]);export{m as __pageData,u as default};
