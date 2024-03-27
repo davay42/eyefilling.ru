@@ -1,10 +1,10 @@
-import { defineConfig } from "vitepress";
+
 
 import { metaData } from "./constants.js";
 import head from "./head.js";
 
 
-export default defineConfig({
+export default {
   title: metaData.title,
   description: metaData.description,
   lang: metaData.locale,
@@ -25,4 +25,4 @@ export default defineConfig({
       chunkSizeWarningLimit: 300000,
     },
   },
-});
+}
